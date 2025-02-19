@@ -1,3 +1,103 @@
-.app{
-  color: red;
+body{
+  margin: 0px;
 }
+/* different font styles */
+.pacifico-regular {
+  font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-light {
+  font-family: "Comic Neue", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-light-italic {
+  font-family: "Comic Neue", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+/* COLORS */
+/* CSS HEX */
+:root{
+  --bistre: #2f1d0eff;
+  --black: #000001ff;
+  --copper: #b78045ff;
+  --maroon: #800000ff;
+  --butterscotch: #db9d52ff;
+  --fairlywhite: #f5ebe1;
+}
+
+/* CSS HSL */
+/* --bistre: hsla(27, 54%, 12%, 1);
+--black: hsla(240, 100%, 0%, 1);
+--copper: hsla(31, 45%, 49%, 1);
+--maroon: hsla(0, 100%, 25%, 1);
+--butterscotch: hsla(33, 66%, 59%, 1); */
+
+/* SCSS HEX
+$bistre: #2f1d0eff;
+$black: #000001ff;
+$copper: #b78045ff;
+$maroon: #800000ff;
+$butterscotch: #db9d52ff; */
+
+/* SCSS HSL */
+/* $bistre: hsla(27, 54%, 12%, 1);
+$black: hsla(240, 100%, 0%, 1);
+$copper: hsla(31, 45%, 49%, 1);
+$maroon: hsla(0, 100%, 25%, 1);
+$butterscotch: hsla(33, 66%, 59%, 1); */
+
+SCSS RGB
+/* $bistre: rgba(47, 29, 14, 1);
+$black: rgba(0, 0, 1, 1);
+$copper: rgba(183, 128, 69, 1);
+$maroon: rgba(128, 0, 0, 1);
+$butterscotch: rgba(219, 157, 82, 1); */
+
+/* SCSS Gradient */
+/* $gradient-top: linear-gradient(0deg, #2f1d0eff, #000001ff, #b78045ff, #800000ff, #db9d52ff);
+$gradient-right: linear-gradient(90deg, #2f1d0eff, #000001ff, #b78045ff, #800000ff, #db9d52ff);
+$gradient-bottom: linear-gradient(180deg, #2f1d0eff, #000001ff, #b78045ff, #800000ff, #db9d52ff);
+$gradient-left: linear-gradient(270deg, #2f1d0eff, #000001ff, #b78045ff, #800000ff, #db9d52ff);
+$gradient-top-right: linear-gradient(45deg, #2f1d0eff, #000001ff, #b78045ff, #800000ff, #db9d52ff);
+$gradient-bottom-right: linear-gradient(135deg, #2f1d0eff, #000001ff, #b78045ff, #800000ff, #db9d52ff);
+$gradient-top-left: linear-gradient(225deg, #2f1d0eff, #000001ff, #b78045ff, #800000ff, #db9d52ff);
+$gradient-bottom-left: linear-gradient(315deg, #2f1d0eff, #000001ff, #b78045ff, #800000ff, #db9d52ff);
+$gradient-radial: radial-gradient(#2f1d0eff, #000001ff, #b78045ff, #800000ff, #db9d52ff); */
+
+/* Background: #2f1d0e
+Primary-Text: #db9d52
+Secondary-Text: #b28045
+Primary-Button: Lighter more saturated #b28045
+Secondary-Button: #db9d52 */

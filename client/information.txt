@@ -1,2 +1,7 @@
 npm i react-router-dom
     for navigation between pages.
+
+npm i @fortawesome/fontawesome-svg-core
+npm i @fortawesome/react-fontawesome
+npm i @fortawesome/free-solid-svg-icons
+    for getting react icons
