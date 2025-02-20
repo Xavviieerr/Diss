@@ -1,3 +1,102 @@
 .auth{
-    color: red;
+    background-color: var(--fairlywhite)
+    display: flex;
+    flex-direction: row;    
 }
+.authLogo{
+    font-size: 28px;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+.header{
+    font-size: 30px;
+    text-align: center;
+    color:var(--butterscotch)
+
+}
+.authLeft{
+    z-index: -2000;
+    position: absolute;
+    left: 6.5%;
+}
+.authRight{
+    width: 40%;
+    height: auto;
+    padding: 5% 0%;
+    position: absolute;
+    right: 19%;
+    top: 12%;
+    border-radius:50px;
+    border-bottom-left-radius: 0px;
+    display:flex;
+    justify-content:center;
+    background-color: var(--bistre)
+}
+.standingSquirrel{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 4%;
+    bottom: 5%;
+}
+.info{
+    width: 240px;
+}
+.infoInput{
+    outline: none;
+    background-color: var(--fairlywhite);
+    border: none;
+    width: 240px;
+    border-radius: 3px;
+    padding: 10px;
+    flex: 1;
+    margin-bottom: 5%;
+}
+.button{
+    margin-left: 34%;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    width: 9rem;
+    font-family: "Comic Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--butterscotch)
+}
+
+.button:hover{
+    color: var(--copper);
+    background-color: var(--black);
+    
+}
+
+.switcher{
+    font-size:17px;
+    text-align: center;
+    margin: 6% 0%;
+    cursor:pointer;
+    color: var(--copper)
+
+}.blur1{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: var(--butterscotch);
+    filter: blur(72px);
+    top: -18;
+    right: 0;
+  }
+  .blur2{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: var(--butterscotch);
+    filter: blur(72px);
+    top: 36%;
+    left: -8rem;
+  }
