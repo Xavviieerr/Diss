@@ -19,7 +19,9 @@
 .authLeft{
     z-index: -2000;
     position: absolute;
-    left: 6.5%;
+    left: 5%;
+    height: 720px;
+    width: 600px;
 }
 .authRight{
     width: 40%;
@@ -29,7 +31,6 @@
     right: 19%;
     top: 12%;
     border-radius:50px;
-    border-bottom-left-radius: 0px;
     display:flex;
     justify-content:center;
     background-color: var(--bistre)

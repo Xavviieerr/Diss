@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Auth.css"
-import Squirrel from "../../assets/images/l-s-squirrel.png"
-import standingSquirrel from "../../assets/images/w-squirrel.png"
+import Squirrel from "../../assets/images/w-squirrel.png"
+import standingSquirrel from "../../assets/images/l-s-squirrel.png"
 import {useState} from "react"
 
 const Auth = () => {
